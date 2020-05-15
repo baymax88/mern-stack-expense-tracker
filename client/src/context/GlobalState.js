@@ -27,7 +27,7 @@ export const GlobalProvider = ({ children }) => {
             })
         } catch (error) {
             dispatch({
-                type: 'RANSACTION_eRROR',
+                type: 'RANSACTION_ERROR',
                 payload: error.response.data.error
             })
         }
@@ -43,7 +43,7 @@ export const GlobalProvider = ({ children }) => {
             })
         } catch (error) {
             dispatch({
-                type: 'RANSACTION_eRROR',
+                type: 'RANSACTION_ERROR',
                 payload: error.response.data.error
             })
         }
@@ -65,7 +65,7 @@ export const GlobalProvider = ({ children }) => {
             })
         } catch (error) {
             dispatch({
-                type: 'RANSACTION_eRROR',
+                type: 'RANSACTION_ERROR',
                 payload: error.response.data.error
             })
         }
